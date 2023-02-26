@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  color: black;
+  font-family: 'Open Sans','Merriweather',sans-serif;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container{
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+.section .row{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+}
+.Project .row{
+  width: 100%;
+  display: flex;
+
+}
+.amazing .row{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

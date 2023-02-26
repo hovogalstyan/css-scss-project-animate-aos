@@ -1,0 +1,383 @@
+.footer{
+  width: 100%;
+  background-color: #353535;
+  position: relative;
+
+  .sitee{
+    width: 3px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    overflow: hidden;
+  }
+  .sit:before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #f7ac53;
+    animation: alternatesit 4s infinite;
+  }
+  .text__sitee{
+    font-size: 14px;
+    line-height: 40px;
+    color: #feb960;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 100px;
+  }
+  .tatle__section{
+    font-size: 40px;
+    line-height: 65px;
+    color: #ffffff;
+    font-family: "Merriweather";
+    text-align: center;
+  }
+  .forma__box{
+    width: 750px;
+    height: 500px;
+    background-color: #202020;
+    margin: 100px 220px;
+    position: relative;
+    overflow: hidden;
+    .footer__box__text{
+      font-size: 11px;
+      line-height: 65px;
+      color: #feb960;
+      font-weight: 400;
+      font-family: "Open Sans";
+      text-transform: uppercase;
+      position: absolute;
+      top: 20px;
+      left: 44px;
+    }
+    .input__footer{
+      border: 0;
+      border-bottom: 1px solid #5c5c5c;
+      background-color: #202020;
+      width: 281px;
+       margin: 100px 45px;
+      position: relative;
+      z-index: 1;
+      outline: none;
+      color: #f0f0f0;
+      font-size: 16px;
+    }
+    .Silva{
+      z-index: 10;
+      position: absolute;
+      top:96px;
+      left: 44px;
+      pointer-events: none;
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Open Sans";
+      transition: all 0.8s;
+    }
+    .Benjamin{
+      position: absolute;
+      top: 96px;
+      right: 250px;
+      z-index: 10;
+      font-size: 14px;
+      pointer-events: none;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Open Sans";
+      transition: all 0.8s;
+      text-transform: uppercase;
+    }
+    .input__footer__one{
+      border: 0;
+      border-bottom: 1px solid #5c5c5c;
+      background-color: #202020;
+      width: 281px;
+      margin: 30px 45px;
+      position: relative;
+      z-index: 1;
+      outline: none;
+      color: #f0f0f0;
+      font-size: 16px;
+    }
+    .Silvaa{
+      position: absolute;
+      top: 244px;
+      left: 44px;
+      text-transform: uppercase;
+      z-index: 10;
+      font-size: 14px;
+      pointer-events: none;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Open Sans";
+      transition: all 0.8s;
+
+
+    }
+    .Benjamina{
+      position: absolute;
+      right: 275px;
+      top: 244px;
+      text-transform: uppercase;
+      z-index: 10;
+      font-size: 14px;
+      pointer-events: none;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Open Sans";
+      transition: all 0.8s;
+     }
+    .messing{
+      width:663px;
+      border: 0;
+      border-bottom: 1px solid #5c5c5c;
+      background-color: #202020;
+      margin: 30px 45px;
+      position: relative;
+      z-index: 1;
+      outline: none;
+      resize: none;
+      color: #f0f0f0;
+      font-size: 16px;
+      height: 20px;
+    }
+    .mes{
+      position: absolute;
+      bottom: 155px;
+      left: 44px;
+      text-transform: uppercase;
+      z-index: 10;
+      font-size: 14px;
+      pointer-events: none;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Open Sans";
+      transition: all 0.8s;
+    }
+    .form__hover{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    .form__hover:nth-child(1):before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background-color: #f7ac53;
+      animation: alternateformone 4s infinite;
+    }
+    .form__hover:nth-child(2):before{
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 100%;
+      background-color: #f7ac53;
+      animation: alternateformtwo 4s infinite;
+    }
+    .form__hover:nth-child(3):before{
+      content: "";
+      position: absolute;
+      width:  100%;
+      height: 3px;
+      background-color: #f7ac53;
+      bottom: 0;
+      animation: alternateformthree 4s infinite;
+    }
+    .form__hover:nth-child(4):before{
+      content: "";
+      position: absolute;
+      width:  3px;
+      height: 100%;
+      background-color: #f7ac53;
+      right: 0;
+      animation: alternateformfor 3s infinite;
+    }
+    .focus:before{
+      content: '';
+      position: absolute;
+      width: 281px;
+      height: 1px;
+      background-color: #f7ac53;
+      top: 119px;
+      right: 49px;
+      transition: all 0.5s;
+      transform: scaleX(0);
+    }
+   .focus__one:before{
+     content: '';
+     position: absolute;
+     width: 281px;
+     height: 1px;
+     background-color: #cccccc;
+     top: 119px;
+     left: 44px;
+     transition: all 0.5s;
+     transform: scaleX(0);
+     z-index: 2;
+   }
+    .focus__two:before{
+      content: '';
+      position: absolute;
+      width: 281px;
+      height: 1px;
+      background-color: #f7ac53;
+      left: 44px;
+      top: 269px;
+      transition: all 0.5s;
+      transform: scaleX(0);
+      z-index: 2;
+    }
+    .focus__three:before{
+      content: "";
+      position: absolute;
+      width: 281px;
+      height: 1px;
+      background-color: #f7ac53;
+      right: 49px;
+      top: 269px;
+      transition: all 0.5s;
+      transform: scaleX(0);
+      z-index: 2;
+    }
+    .focus__for:before{
+      content: '';
+      width:663px;
+      height: 1px;
+      position: absolute;
+      background-color: #f7ac53;
+      left: 44px;
+      bottom: 151px;
+      transition: all 1s;
+      transform: scaleX(0);
+      z-index: 2;
+    }
+  }
+  .contact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  .itme{
+    width: 25%;
+    margin: 0 -31px;
+    position: relative;
+    .f__link__one{
+      border: 1px solid #fdb95f;
+      padding:  11px 15px;
+      border-radius: 50%;
+      font-size: 25px;
+      position: absolute;
+      color: #f7ac53;
+      left: 150px;
+    }
+    .itme__title{
+      font-size: 16px;
+      line-height: 40px;
+      color: #ffffff;
+      font-weight: 600;
+      font-family: "Open Sans";
+      text-transform: uppercase;
+    }
+    .itme__text{
+      max-width: 179px;
+      font-size: 14px;
+      line-height: 40px;
+      color: #ffffff;
+      font-weight: 600;
+      font-family: "Open Sans";
+    }
+    .tel{
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 40px;
+      color: #ffffff;
+      font-weight: 600;
+      font-family: "Open Sans";
+    }
+    .itme__icon{
+      width: 25%;
+      display: flex;
+      list-style: none;
+
+      .list__itme__icon{
+        margin: 30px 3px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        padding: 4px 7px;
+        border-radius: 50%;
+      }
+      .link__itme__icon{
+        color: #737373;
+      }
+     }
+  }
+}
+
+.inpute:focus~ .mes,
+.input__for:focus~ .Benjamina,
+.input__three:focus~ .Silvaa,
+.input__twoo:focus~ .Benjamin,
+.input__one:focus~ .Silva{
+  transform: translateY(-20px);
+}
+.inpute:valid~ .mes,
+.input__for:valid~ .Benjamina,
+.input__three:valid~ .Silvaa,
+.input__twoo:valid~.Benjamin,
+.input__one:valid~ .Silva{
+  transform: translateY(-20px);
+ }
+.inpute:focus~ .focus__for:before,
+.input__for:focus~.focus__three:before,
+.input__three:focus~.focus__two:before,
+.input__twoo:focus~ .focus:before,
+.input__one:focus~ .focus__one:before{
+   transform: scaleX(1);
+}
+
+
+@keyframes alternateformone {
+     0%{
+       left: -100%;
+     }
+  100%{
+    left: 100%;
+  }
+}
+@keyframes alternateformtwo {
+  0%{
+     bottom: -100%;
+  }
+  100%{
+    bottom: 100%;
+  }
+}
+@keyframes alternateformthree {
+  0%{
+    right: -100%;
+  }
+  100%{
+    right: 100%;
+  }
+}
+@keyframes alternateformfor {
+  0%{
+     top: -100%;
+  }
+  100%{
+     top: 100%;
+  }
+}
+@keyframes alternatesit {
+  0%{
+    top: -100%;
+  }
+  100%{
+    top: 100%;
+  }
+}

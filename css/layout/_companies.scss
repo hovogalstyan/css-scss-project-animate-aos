@@ -1,0 +1,134 @@
+.companies {
+  width: 100%;
+  background-color: #202020;
+  position: relative;
+   padding-bottom: 120px;
+
+  .cop__line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 3px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .line__cop:before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #f7ac53;
+    animation: alternatesit 4s infinite;
+  }
+  .comp__text{
+    text-align: center;
+    padding-top: 110px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #feb960;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+  }
+  .comp__title{
+    max-width: 827px;
+    font-size: 40px;
+    line-height: 65px;
+    color: #ffffff;
+    font-family: "Merriweather";
+    text-align: center;
+    margin-left: 178px;
+  }
+  .comp__nav__block{
+    width: 100%;
+    padding:110px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .comp__list{
+    list-style: none;
+    margin: 0 40px;
+
+  }
+  .comp__img{
+    transition: all 0.5s;
+  }
+  .comp__list:hover .comp__img{
+    transform: rotate(360deg);
+  }
+
+ .comp__slider{
+   width: 750px;
+   height: 380px;
+   background-color: #181818;
+   position: relative;
+   margin: 0 auto;
+
+  .comp__slider__img{
+    width: 15%;
+    height: 76px;
+    object-fit: cover;
+    position: relative;
+     left: 43%;
+  }
+   .comp__slider__text{
+      max-width: 593px;
+     font-size: 17px;
+     line-height: 35px;
+     color: #bbbbbb;
+     font-family: "Merriweather";
+     text-align: center;
+     margin:  53px auto;
+   }
+   .comp__slider__title{
+     text-align: center;
+     font-size: 14px;
+     line-height: 10px;
+     color: #feb960;
+     font-weight: 600;
+     font-family: "Open Sans";
+     text-transform: uppercase;
+     animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+   }
+   .comp__slider__text__one{
+   font-size: 13px;
+   line-height: 35px;
+   color: #ffffff;
+   font-weight: 400;
+   font-family: "Open Sans";
+   text-align: center;
+     animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+   }
+ .fa{
+   width: 180px;
+   height: 1px;
+   position: absolute;
+   background-color: #474747;
+   left: 12%;
+   bottom:11%;
+ }
+   .faa{
+     width: 180px;
+     height: 1px;
+     position: absolute;
+     background-color: #474747;
+     right: 12%;
+     bottom: 11%;
+   }
+ }
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+}
